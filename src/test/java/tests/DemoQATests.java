@@ -5,12 +5,14 @@ import api.BookStoreAPI;
 import helpers.extensions.WithLogin;
 import models.GetBooksListModel;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.ProfilePage;
 
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 
+@Tag("APITests")
 @DisplayName("Тесты на книжный магазин DemoQA")
 public class DemoQATests extends TestBase {
 
