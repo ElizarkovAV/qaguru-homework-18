@@ -14,8 +14,8 @@ public class AccountAPI {
 
     public static LoginUserResponseModel getAuthCookie() {
 
-        LoginReqUserModel requestUser= new LoginReqUserModel(System.getProperty("userLogin"),
-                System.getProperty("userPass"));
+        LoginReqUserModel requestUser= new LoginReqUserModel(System.getProperty("loginUser"),
+                System.getProperty("passwordUser"));
 
         LoginUserResponseModel response = step("Выполнить запрос логина, записать ответ", () ->
                 given(requestWithJson)

@@ -2,7 +2,9 @@ package tests;
 
 import api.AccountAPI;
 import api.BookStoreAPI;
+import com.codeborne.selenide.logevents.SelenideLogger;
 import helpers.extensions.WithLogin;
+import io.qameta.allure.selenide.AllureSelenide;
 import models.GetBooksListModel;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -20,7 +22,7 @@ public class DemoQATests extends TestBase {
     @WithLogin
     @DisplayName("Тест на удаление товара из списка")
     void successfulDeleteBookFromBooksList() {
-
+        SelenideLogger.addListener("allure", new AllureSelenide());
         step("Предварительно очистить корзину от книг", () ->
                 BookStoreAPI.deleteBooksFromCart());
 
