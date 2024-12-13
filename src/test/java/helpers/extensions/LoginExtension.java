@@ -16,8 +16,8 @@ public class LoginExtension implements BeforeEachCallback {
     @Override
     public void beforeEach(ExtensionContext context) {
 
-        USER_NAME = System.getProperty("storeUserName", "login");
-        USER_PASSWORD = System.getProperty("storeUserPassword", "password");
+        USER_NAME = System.getProperty("loginUser", "login");
+        USER_PASSWORD = System.getProperty("passwordUser", "password");
 
         LoginRespModel authResponse = AuthorizationAPI.getAuthData(USER_NAME, USER_PASSWORD);
 

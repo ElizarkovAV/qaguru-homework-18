@@ -40,7 +40,7 @@ public class BooksAPI {
         booksCollection.setUserId(USER_ID);
         booksCollection.setCollectionOfIsbns(List.of(book));
 
-        given(requestSpecification)
+        given(requestSpec)
                 .header("Authorization", "Bearer " + USER_TOKEN)
                 .body(booksCollection)
                 .when()
@@ -55,7 +55,7 @@ public class BooksAPI {
     public void checkResultOnApi() {
 
         AllBooksFromProfileResponseModel response =
-                given(requestSpecification)
+                given(requestSpec)
                         .when()
                         .header("Authorization", "Bearer " + USER_TOKEN)
                         .get("/Account/v1/User/" + USER_ID)

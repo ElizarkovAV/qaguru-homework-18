@@ -5,41 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d407386-0277-4eb2-9e2b-9b44a319949a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/AuthorizationAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/BooksAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/AuthorizationData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/books/AddBooksCollectionRequestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/books/AllBooksFromProfileResponseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/books/AllBooksFromStoreResponseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/books/BookModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/books/ISBNModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/login/LoginReqModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/login/LoginRespModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DemoQABooksTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/AccountAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/BookStoreAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/CustomAllureListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/CustomAllureListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/BooksAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/BooksAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/helpers/extensions/LoginExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/extensions/LoginExtension.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/extensions/WithLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/extensions/WithLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/AddBookListReqModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/BookModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/GetBooksListModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/ISBNModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/LoginReqUserModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/LoginUserResponseModel.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ProfilePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/specs/DemoQASpecs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/specs/DemoQASpecs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DemoQATests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DemoQABooksTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DemoQABooksTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +33,28 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="qaguru-homework-18" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="qaguru-homework-18" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="qaguru-homework-18" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -82,14 +80,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/QAGURU/qaguru-homework-18/src/test/java/helpers"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/QAGURU/qaguru-homework-18/src/test/java/helpers&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\QAGURU\qaguru-homework-18\src\test\java\helpers" />
@@ -123,29 +121,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DemoQATests.loginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.DemoQATests.loginTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="DemoQATests.successfulDeleteBookFromBooksList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -160,29 +135,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;tests.DemoQATests.successfulDeleteBookFromBooksList&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="DemoQATests.successfulDeleteBookFromCollectionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.DemoQATests.successfulDeleteBookFromCollectionTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -215,13 +167,55 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="qaguru-homework-18 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="qaguru-homework-18 [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.DemoQABooksTests.deleteBookFromProfileCart" />
+        <item itemvalue="Gradle.qaguru-homework-18 [clean]" />
+        <item itemvalue="Gradle.qaguru-homework-18 [build]" />
         <item itemvalue="Gradle.fixingTests.firsTest" />
         <item itemvalue="Gradle.DemoQATests.successfulDeleteBookFromBooksList" />
-        <item itemvalue="Gradle.DemoQATests.loginTest" />
-        <item itemvalue="Gradle.DemoQATests.successfulDeleteBookFromCollectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -259,11 +253,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/tests/fixingTests.java</url>
           <line>20</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/DemoQABooksTests.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
