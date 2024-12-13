@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
 import pages.ProfilePage;
 
 @Tag("APITests")
+@DisplayName("Тесты с использованием API и UI на страницу profile demoqa и book store")
 public class DemoQABooksTests extends TestBase {
 
 
