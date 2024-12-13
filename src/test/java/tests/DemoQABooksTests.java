@@ -25,13 +25,12 @@ public class DemoQABooksTests extends TestBase {
         //act
         booksAPI.addBookToCart(isbn); //добавить книгу через API
 
-        profilePage.openProfilePage();
-        profilePage.checkLastProfileAddedBook(isbn);
-        profilePage.deleteBookFromCart();
-        profilePage.checkThatCartIsEmpty();
+        profilePage.openProfilePage(); //открыть страницу Profile
+        profilePage.checkLastProfileAddedBook(isbn); // проверить, что в UI отображается добавленная книга по isbn
+        profilePage.deleteBookFromCart(); //удалить книгу из корзины
 
-        System.out.println("123");
-
-
+        //assert
+        profilePage.checkThatCartIsEmpty(); // проверить что корзина пустая UI
+        booksAPI.checkResultOnApi(); // проверить что корзина пустая API
     }
 }
