@@ -1,14 +1,15 @@
 package tests;
 
-import api.AuthorizationAPI;
 import api.BooksAPI;
+import com.codeborne.selenide.logevents.SelenideLogger;
 import helpers.extensions.WithLogin;
-import models.books.AllBooksFromProfileResponseModel;
+import io.qameta.allure.selenide.AllureSelenide;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.ProfilePage;
 
-import static com.codeborne.selenide.Selenide.open;
-
+@Tag("APITests")
 public class DemoQABooksTests extends TestBase {
 
 
@@ -18,7 +19,9 @@ public class DemoQABooksTests extends TestBase {
 
     @Test
     @WithLogin
+    @DisplayName("Удаление книги со страницы пользователя")
     void deleteBookFromProfileCart() {
+        SelenideLogger.addListener("allure", new AllureSelenide());
         //arrange
         booksAPI.deleteAllBooksFromCart(); //удалить все книги из корзины пользователя API
 
