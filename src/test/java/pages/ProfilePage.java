@@ -14,7 +14,7 @@ public class ProfilePage {
         open("/profile");
     }
 
-    @Step
+    @Step("Проверить последнюю добавленную книгу на странице профиля пользователя")
     public void checkLastProfileAddedBook(String isbn) {
         $$(".rt-tr-group").first()
                 .$("a[href='/profile?book=" + isbn + "']")

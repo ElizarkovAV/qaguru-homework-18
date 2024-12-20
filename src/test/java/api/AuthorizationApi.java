@@ -8,7 +8,7 @@ import static io.restassured.RestAssured.*;
 import static specs.DemoQASpecs.requestSpec;
 import static specs.DemoQASpecs.responseSpec200;
 
-public class AuthorizationAPI {
+public class AuthorizationApi {
 
     @Step("Получение необходимых данных для авторизации")
     public static LoginRespModel getAuthData (String userName, String userPassword) {

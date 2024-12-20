@@ -1,5 +1,7 @@
 package api;
 
+import data.AuthorizationData;
+import helpers.extensions.LoginExtension;
 import io.qameta.allure.Step;
 import models.books.AddBooksCollectionRequestModel;
 import models.books.AllBooksFromProfileResponseModel;
@@ -8,21 +10,20 @@ import models.books.ISBNModel;
 
 import java.util.List;
 
-import static data.AuthorizationData.USER_ID;
-import static data.AuthorizationData.USER_TOKEN;
+import static data.AuthorizationData.UserToken;
+import static data.AuthorizationData.User_ID;
 import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.requestSpecification;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static specs.DemoQASpecs.*;
 
-public class BooksAPI {
+public class BooksApi {
 
     @Step("Очистить корзину через API запрос")
-    public BooksAPI deleteAllBooksFromCart() {
+    public BooksApi deleteAllBooksFromCart() {
 
              given(requestSpec)
-                .header("Authorization", "Bearer " + USER_TOKEN)
-                .queryParam("UserId", USER_ID)
+                .header("Authorization", "Bearer " + UserToken)
+                .queryParam("UserId", User_ID)
                 .when()
                 .delete("/BookStore/v1/Books")
                 .then()
@@ -32,16 +33,16 @@ public class BooksAPI {
     }
 
     @Step("Добавить книгу в корзину пользователя через API")
-    public BooksAPI addBookToCart(String isbn) {
+    public BooksApi addBookToCart(String isbn) {
         ISBNModel book = new ISBNModel();
         book.setIsbn(isbn);
 
         AddBooksCollectionRequestModel booksCollection = new AddBooksCollectionRequestModel();
-        booksCollection.setUserId(USER_ID);
+        booksCollection.setUserId(User_ID);
         booksCollection.setCollectionOfIsbns(List.of(book));
 
         given(requestSpec)
-                .header("Authorization", "Bearer " + USER_TOKEN)
+                .header("Authorization", "Bearer " + UserToken)
                 .body(booksCollection)
                 .when()
                 .post("/BookStore/v1/Books")
@@ -57,8 +58,8 @@ public class BooksAPI {
         AllBooksFromProfileResponseModel response =
                 given(requestSpec)
                         .when()
-                        .header("Authorization", "Bearer " + USER_TOKEN)
-                        .get("/Account/v1/User/" + USER_ID)
+                        .header("Authorization", "Bearer " + UserToken)
+                        .get("/Account/v1/User/" + User_ID)
                         .then()
                         .spec(responseSpec200)
                         .extract().as(AllBooksFromProfileResponseModel.class);
