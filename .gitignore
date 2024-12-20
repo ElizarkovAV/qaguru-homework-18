@@ -19,4 +19,4 @@ build/
  *.log
 
  ### Allure ###
- .allure-report
+ allure-report
