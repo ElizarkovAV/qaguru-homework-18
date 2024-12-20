@@ -16,4 +16,5 @@ build/
 *.log
 
 ### Allure ###
-.allure-report
+/.idea/
+/allure-report/
